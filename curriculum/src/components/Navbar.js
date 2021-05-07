@@ -37,24 +37,24 @@ export default function Navbar() {
                         }}>
                             Inicio      </NavLink>
                         <NavLink className="navbar-item" to="/lenguajes" isActive={(match, location) => {
-    if (!match) {
-      return false;
-    }
+                            if (!match) {
+                                return false;
+                            }
 
-    // only consider an event active if its event id is an odd number
-    const eventID = parseInt(match.params.eventID);
-    return !isNaN(eventID) && eventID % 2 === 1;
-  }}>
+                            // only consider an event active if its event id is an odd number
+                            const eventID = parseInt(match.params.eventID);
+                            return !isNaN(eventID) && eventID % 2 === 1;
+                        }}>
                             Lenguajes      </NavLink>
                         <NavLink className="navbar-item" to="/estudios" isActive={(match, location) => {
-    if (!match) {
-      return false;
-    }
+                            if (!match) {
+                                return false;
+                            }
 
-    // only consider an event active if its event id is an odd number
-    const eventID = parseInt(match.params.eventID);
-    return !isNaN(eventID) && eventID % 2 === 1;
-  }}>
+                            // only consider an event active if its event id is an odd number
+                            const eventID = parseInt(match.params.eventID);
+                            return !isNaN(eventID) && eventID % 2 === 1;
+                        }}>
                             Educacion      </NavLink>
                     </div>
                     <div className="navbar-end">
