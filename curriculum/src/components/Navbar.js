@@ -61,7 +61,7 @@ export default function Navbar() {
                         <div className="navbar-item">
                             <div className="field is-grouped">
                                 <p className="control">
-                                    <a className="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://github.com/alexisglez78" rel="noreferrer">
+                                    <a className="bd-tw-button button" data-social-network="github" data-social-action="github"  target="_blank" href="https://github.com/alexisglez78" rel="noreferrer">
                                         <span className="icon">
                                             <FaGithub />
                                         </span>

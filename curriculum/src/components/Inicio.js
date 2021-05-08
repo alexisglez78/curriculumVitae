@@ -5,9 +5,9 @@ import Foto from '../assets/alexis.jpg'
 
 export default function Inicio() {
     return (
-        <div className="imagen" style={{ color: 'white', height: window.screen.height }} >
+        <div className="imagen" style={{ color: 'white', height: '100vh'}} >
             <div className="pri" >
-                <div className="columns " style={{ marginTop: '-200px' }}>
+                <div className="columns " >
                     <div className="column " style={{ textAlign: 'center' }}>
                         <div className="is-capitalized is-size-1 mb-5">paul alexis gonzalez casas</div>
                         <figure className="mb-5" >
